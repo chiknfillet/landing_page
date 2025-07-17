@@ -49,11 +49,54 @@ body {
 }
 
 .two {
-    
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project {
+    max-width: 200px;
+}
+
+.project-image {
+    border: 1px solid #3882f6;
+    width: 100px;
+    height: 100px;
+}
+
+.project-text {
+    font-style: italic;
 }
 
 .three {
     background-color: #e5e7eb;
+    padding: 0 100px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-family: light;
+    font-style: italic;
+}
+
+.quote-name {
+    align-self:flex-end;
+    font-weight: 900;
+    font-size: 24px;
 }
 
 .four {
